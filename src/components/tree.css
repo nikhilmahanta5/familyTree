@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.d-tree-container {
+  list-style: none;
+
+}
+
+.d-tree-node {
+  padding: 0.75rem 1.25rem;
+}
+
+  .d-tree-toggler.active {
+    transform: rotate(90deg);
+    margin-left:-20px;
+
+  }
+  .d-tree-toggler{
+    margin-left:-20px;
+  }
+  .detailsContainer{
+    padding-left:5px
+  }
+  .details{
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    margin-top: 0;
+    margin-bottom: 3px;
+  }
+  .listStyles{
+    list-style: none;
+    padding: 0;
+    text-align: left;
+  }
+  .inactive{
+    display: inline;
+    padding-left: 5px;
+  }
+
+  
+  .selector:hover{
+    cursor: pointer;
+    background-color: rgb(192, 189, 189);
+    width: 100%;
+
+  }
